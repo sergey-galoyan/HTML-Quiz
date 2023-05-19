@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    background-color: #007AF5;
+}
+
+#app {
+    margin-top: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#countdown {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.correct {
+    outline: 3px solid limegreen;
+}
+
+.incorrect {
+    outline: 3px solid red;
+}
+
+#skip, #next-question {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #007AF5;
+    color: white;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
